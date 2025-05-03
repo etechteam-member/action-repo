@@ -3,8 +3,8 @@
 set -e
 
 # Variables
-BUCKET_NAME="$1"
-AWS_REGION="$2"
+BUCKET_NAME="my-unique-1"
+AWS_REGION="us-west-2"
 
 if [[ -z "$BUCKET_NAME" || -z "$AWS_REGION" ]]; then
   echo "Usage: $0 <bucket-name> <aws-region>"
